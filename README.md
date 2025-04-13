@@ -6,4 +6,5 @@ This program utilizes a *C*-coded serial reader and *pygame*-based graphical vie
 
 This is my own development and it was based on a chinese datasheet which I translated to Brazilian Portuguese using Google Translate, since the english version on AliExpress site was incomplete. 
 The main points in this code is to use C for a very fast serial reading and pipes to connect to a pygame based interface, which is simple to modify and understand yet beautiful.
+
 The pipe connection was developed using ChatGPT 4o. It felt like cheating but saved a lot of time coding so, if you are getting too old to dedicate a lot (and I mean a lot) of time debugging, give it a try! You still have to give guidelines and think about the logic of the code but the brick-laying work is done by your digital intern!
