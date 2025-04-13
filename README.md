@@ -8,3 +8,5 @@ This is my own development and it was based on a chinese datasheet which I trans
 The main points in this code is to use C for a very fast serial reading and pipes to connect to a pygame based interface, which is simple to modify and understand yet beautiful.
 
 The pipe connection was developed using ChatGPT 4o. It felt like cheating but saved a lot of time coding so, if you are getting too old to dedicate a lot (and I mean a lot) of time debugging, give it a try! You still have to give guidelines and think about the logic of the code but the brick-laying work is done by your digital intern!
+
+I will also be publishing the SOCKETs version (both Unix-socket and TCP-Socket) that is even faster and prettier!
