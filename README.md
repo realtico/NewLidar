@@ -10,3 +10,28 @@ The main points in this code is to use C for a very fast serial reading and pipe
 The pipe connection was developed using ChatGPT 4o. It felt like cheating but saved a lot of time coding so, if you are getting too old to dedicate a lot (and I mean a lot) of time debugging, give it a try! You still have to give guidelines and think about the logic of the code but the brick-laying work is done by your digital intern!
 
 I will also be publishing the SOCKETs version (both Unix-socket and TCP-Socket) that is even faster and prettier!
+
+## *DEPENDENCIES:* 
+
+### Required Packages:
+- **Python 3.7 or higher**
+
+- **Pygame ≥ 2.1** (recommended: 2.6.1 for performance improvements)
+
+- **SDL2 ≥ 2.0.9** (used internally by Pygame)
+
+- **SDL2_ttf ≥ 2.0** (required for font rendering in Pygame)
+
+- **fontconfig** (used by Pygame to locate system fonts)
+
+Dependencies Install Instructions (Debian / Raspberry Pi OS):
+```
+sudo apt update
+sudo apt install python3 python3-pip libsdl2-dev libsdl2-ttf-dev fontconfig
+pip3 install pygame
+``` 
+
+💡 On low-powered devices like Raspberry Pi Zero, precompiled versions of Pygame may not work properly. In this case, compiling Pygame from source is recommended.
+
+The C code does not need any special package. The included makefile is pretty straightforward, so you don't forget the -lm option (it uses the math lib).
+
